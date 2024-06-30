@@ -1,9 +1,10 @@
 .home{
-    position: absolute;
+    /* position: absolute;
     top: 40%;
-    left:27%;
+    left:27%; */
     text-align: center;
     color: white;
+    margin-top: 7%;
 }
 #h1{
     font-size: 42px;

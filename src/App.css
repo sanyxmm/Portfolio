@@ -1,18 +1,35 @@
+#light{
+  background-color: #e092b5bd;
+}
+#dark{
+  background-color: #000000;
+}
+.switch{
+  position: absolute;
+  left: 92%;
+  top: -7%;
+
+}
 .App{
+  position: relative;
     background-color: #dcacc2;
+    /* background-color: #101010; */
 }
 .page{
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
-    background-image: url(skate.jpeg);
+    background-image: url(skate-removebg.png);
     background-repeat: no-repeat; 
-    background-position: top;
-   background-size:100vw 170vh ;       
+    background-position-y: 1%;
+    background-position-x: 10%;
+   background-size:90vw 170vh ;       
 }
 
 .social-container {
-  background-color: rgb(218, 210, 210);
-  padding: 55px 50px;
+  color: white;
+  opacity: 90%;
+  background-color: rgba(198, 144, 190, 0.128);
+  padding: 45px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +41,7 @@
  font-size: 33px;
 }
 a.social {
-  padding-top: 40px;
+  padding-top: 20px;
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;

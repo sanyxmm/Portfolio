@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube,faFacebook,faTwitter,faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
+
     <div class="social-container">
-      <h3>Sanyam!</h3>
+      
+      <h3>Connect with me!</h3>
       <div><a href="https://www.youtube.com/c/jamesqquick"
         className="youtube social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
