@@ -1,0 +1,49 @@
+.App{
+    background-color: #dcacc2;
+}
+.page{
+    height: 110vh;
+    width: 100vw;
+    background-image: url(skate.jpeg);
+    background-repeat: no-repeat; 
+    background-position: top;
+   background-size:100vw 170vh ;       
+}
+
+.social-container {
+  background-color: rgb(218, 210, 210);
+  padding: 55px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-container h3{
+  opacity: 80%;
+ text-align: center;
+ font-size: 33px;
+}
+a.social {
+  padding-top: 40px;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #0d0d0d;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+color: grey;
+}

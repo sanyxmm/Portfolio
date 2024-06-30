@@ -1,0 +1,21 @@
+.navbar{
+    padding: 0vw 10vw 0vw 10vw;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    list-style: none;  
+}
+.navigation2{  
+    font-size: 2.4vw;
+    font-weight: 400;
+}
+.navigation{
+    display: flex;
+    font-size: 1.7vw;
+    gap: 2vw;
+}
+
+
+
