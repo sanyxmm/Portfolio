@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import surfer from './surfer.png'
+import resume from './sanyam-cv.pdf'
 const About = () => {
   return (
     <div className='about'>
@@ -15,7 +16,10 @@ const About = () => {
        <li>I'm always open to feedback and new opportunities. Let's connect!</li>
        <div>
         <button>Hire me</button>
-        <button>Download CV</button>
+        <a   href={resume}
+        download="Sanyam-Choudhary-CV"
+        target="_blank"
+        rel="noreferrer"><button>Download CV</button></a>
      </div>
      </section>
      
