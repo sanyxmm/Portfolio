@@ -1,27 +1,36 @@
 .navbar{
-
-    padding: 1vw 10vw 0vw 10vw;
+    
+    padding: 0.5vw 8vw 0vw 8vw;
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 6vw;
     width: 100vw;
     list-style: none; 
+    font-size: 1vw;
+    z-index: 999;
 }
 .navbar a{
    text-decoration: none;
    color: aliceblue;
+   cursor: pointer;
 }
 .navigation2{  
-    font-size: 2.4vw;
-    font-weight: 600;
+    font-size: 2.8em;
+    font-weight: bolder;
 }
 .navigation{
     display: flex;
-    font-size: 1.6vw;
+    font-size: 1.6em;
     gap: 1.7vw;
 }
 
 
 
+@media(max-width:680px){
+    .navbar{
+        font-size: 1.8vw;
+        padding: 2vw 8vw 0vw 8vw;
+    }
+}

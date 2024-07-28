@@ -1,17 +1,17 @@
 import React from 'react'
 import './Skills.css'
-import rocke from './rocket.jpg'
-import lap from './laptop.jpg'
-import glob from './globe.jpg'
 const Skills = () => {
   return (
     <div className='skil'>
-    <h1 id='s1'>Skill-Set</h1>
+    <h1 id='s1'>My Skills</h1>
       <section className='skillset'>
-      <div><img src={lap} alt="3" />Public Relations</div>
-       <div><img src={rocke} alt="1" />Web Development.</div>
-       <div><img src={glob} alt="2" />Data Structures</div>
-       <div><img src={lap} alt="3" />Public Relations</div>
+       <div><img  src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1"/></div>
+       <div><img  src="https://img.icons8.com/fluency/480/css3.png" alt="css3"/></div>
+       <div><img  src="https://img.icons8.com/color/480/javascript--v1.png" alt="javascript--v1"/></div>
+       <div><img  src="https://img.icons8.com/nolan/512/1A6DFF/C822FF/react-native.png" alt="react-native"/></div>
+       <div><img  src="https://img.icons8.com/color/480/000000/tailwindcss.png" alt="tailwindcss"/></div>
+       <div><img  src="https://img.icons8.com/windows/512/FFFFFF/github.png" alt="github"/></div>
+       <div><img  src="https://img.icons8.com/color/480/git.png" alt="git"/></div>
       </section>
       
     </div>

@@ -1,36 +1,44 @@
 .skil{
-    height: 70vh;
-    width: 100vw;
-    margin: 100px 100px 0px 0px;
+    width: 100%;
+    /* margin: 100px 100px 0px 0px; */
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1vw
 }
 .skillset{
-    width: 100vw;
-    height: 20vh;
+    margin-top: 3vw;
+    width: 50vw;
+    gap: 3vw;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 .skillset div img{
-    width: 150px;
-    height: 150px;
+    width: 6vw;
+    height: 6vw;
     border-radius: 75px;
     margin-bottom: 10px;
 }
-.skillset div{
-    margin: 20px;
-    background-color: rgb(234, 233, 233);
-    border-radius: 10px;
-    height: 220px;
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 18px;
-    font-weight: 600;
-}
 #s1{
-    font-size: 60px;
+    width: 100%;
+    text-align: start;
+    font-size: 3.5em;
     color: white;
-    padding-left: 100px;
+    padding-left: 3em;
+}
+
+@media (max-width:680px){
+    .skil{
+        font-size: 2.5vw;
+    }
+    .skillset div img{
+        width: 13vw;
+        height: 13vw;
+    }
+    #s1{
+        font-size: 2.3em;
+        padding-left: 1.4em;
+    }
 }

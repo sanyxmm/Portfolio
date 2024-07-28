@@ -1,9 +1,108 @@
-.foot{
-    height: 50vh;
-    width: 100vw;
-    background-color: #be4380;
+.main-footer{
+    padding: 0 8vw; 
+    font-size: 1vw;
 }
-.foot h1{
-    text-align: center;
-}
+.main-footer hr{
+    border: 0.1em solid white;
+    opacity: 20%;
+  }
+  .footer {
+    color: white;
+    opacity: 90%;
+    background-color: rgba(7, 7, 7, 0.128);
+    padding: 5.5em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+  }
+#button {
+    --fancy-button-gradient-0: #8d49fd;
+  --fancy-button-gradient-50: #7f56f3;
+  --fancy-button-gradient-100: #5691f3;
+  --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+  --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+  --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+  --fancy-button-shine-top: #e9d1ff;
+  --fancy-button-shine-bottom: #adfff9;
+  color: white;
+    font-weight: 600;
+    padding:1vw 2vw 1vw 1.5vw;
+    font-size: 1.5vw;
+    margin-top: 24%;
+    border-radius: 8em;
+    cursor: pointer;
+    border: 0em ;
+    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom, var(--fancy-button-gradient-0) 0%, var(--fancy-button-gradient-50) 50%, var(--fancy-button-gradient-100) 100%);
+    box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15), 0px 2px 8px rgba(9, 12, 60, 0.15), 0px 1px 3px var(--fancy-button-inner-shadow-top-lg), inset 0px 1px 1px var(--fancy-button-inner-shadow-top), inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+  
+  }
+#head{
+    font-weight: bolder;
+   text-align: center;
+   font-size: 3.3em;
+  }
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  .button-container button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #000000;
+    transition: all 0.45s;
+  }
+  .button-container button svg{
+    width: 1.7vw;
+  }
+  .button-container button:hover {
+    transform: rotate(360deg);
+    transform-origin: center center;
+    background-color: #ffff;
+    color: #2d2e32;
+  }
+  
+  .button-container button:hover .btn-svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+      brightness(103%) contrast(103%);
+  }
+  .copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+    padding: 1.5em 0px;
+  }
+
+
+@media (max-width:680px){
+  .main-footer{
+    padding: 0 4vw; 
+    font-size: 1vw;
+}
+.copyright{
+  font-size: 1.5em;
+}
+.button-container button svg{
+  width: 3vw;
+}
+.button-container button {
+  width: 8vw;
+  height: 8vw;
+}
+}

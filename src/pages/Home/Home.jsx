@@ -1,15 +1,27 @@
 import React from 'react'
 import './Home.css'
-
+import skatee from './skate-removebg.png'
+import skatee2 from './skate2.png'
 const Home = () => {
   return (
-    <div>
-      <div className='home'>
-        <div id='h1'>Hello i'm &ensp; &ensp;</div>
+   <div>
+     <div className='MOB-VIEW'>
+        <div className='home-mob'>
+        <div><h3>Hello i'm &ensp; &ensp;</h3>
+        <h3>Sanyam Choudhary&ensp;</h3>
+        <h3>Frontend Developer&ensp;</h3></div>
+        </div>
+      <img src={skatee2} alt="" id='imagee2' />
+    </div>
+    <div className='DESK-VIEW'>
+       <img src={skatee} alt="" id='imagee' />
+      <div className='home'>     
+        <div id='h1' > &ensp;<span style={{color:"white",fontSize:"5vw",fontWeight:"bolder"}}>H</span>ello i'm &ensp;</div>
         <div id='h2'>Sanyam Choudhary&ensp;</div>
         <div id='h3'> Frontend Developer&ensp;</div>
       </div>
     </div>
+   </div>
   )
 }
 export default Home
