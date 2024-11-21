@@ -1,2 +1,2 @@
 Netlify Link to my Portfolio Website
-[Click here](https://sanyamchoudhary.netlify.app/)
+[Click here](https://sanyxm-portfolio.netlify.app/)
