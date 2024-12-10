@@ -7,7 +7,7 @@ const Footer = () => {
       
           <div className="footer">
             <div id='head'> Have a Project in mind? <br /> Let's build something together!</div>
-            <div><button id='button'><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sanyam726@gmail.com" target="_blank">Contact</a></button></div>
+            <div><button id='button'><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sanyamchoudhary726@gmail.com" target="_blank">Contact</a></button></div>
           </div>
      <hr />
 
