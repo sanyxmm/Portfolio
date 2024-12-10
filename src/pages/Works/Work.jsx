@@ -16,7 +16,7 @@ const Work = () => {
 
       <h2>FidoFinder Web Template</h2>
       <p>Designed a visually appealing Web template with <br /> React ,JavaScript,CSS, and HTML , applying <br />modern ui/ux principles for an enhanced <br /> user experience</p>
-      <a href="https://github.com/sanyxmm/Findmydog" class="fancy-button">Github Link </a>
+      <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
       
      </div>
 
