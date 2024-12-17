@@ -12,9 +12,9 @@ const Skills = () => {
        <div><img  src="https://img.icons8.com/color/480/000000/tailwindcss.png" alt="tailwindcss"/></div>
        <div><img  src="https://img.icons8.com/windows/512/FFFFFF/github.png" alt="github"/></div>
        <div><img  src="https://img.icons8.com/color/480/git.png" alt="git"/></div>
-      <div><img   src="https://img.icons8.com/color/48/mongo-db.png" alt="mongo-db"/></div>
-        <div><img src="https://img.icons8.com/fluency/48/node-js.png" alt="node-js"/></div>
-        <div><img  src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-redux-an-open-source-javascript-library-for-managing-application-state-logo-color-tal-revivo.png" alt="external-redux-an-open-source-javascript-library-for-managing-application-state-logo-color-tal-revivo"/></div>
+      <div><img   src="https://img.icons8.com/color/480/mongo-db.png" alt="mongo-db"/></div>
+        <div><img src="https://img.icons8.com/fluency/480/node-js.png" alt="node-js"/></div>
+        <div><img  src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-redux-an-open-source-javascript-library-for-managing-application-state-logo-color-tal-revivo.png" alt="external-redux-an-open-source-javascript-library-for-managing-application-state-logo-color-tal-revivo"/></div>
       </section>
       
     </div>
