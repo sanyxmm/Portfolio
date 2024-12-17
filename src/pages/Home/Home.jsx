@@ -9,7 +9,6 @@ const Home = () => {
         <div className='home-mob'>
         <div>
         <h3>  Hello i'm Sanyam <img width="18" height="18" src="https://img.icons8.com/emoji/18/waving-hand-emoji.png" alt="waving-hand-emoji"/> </h3>
-        <h3>Sanyam Choudhary&ensp;</h3>
         <h3>FullStack Developer&ensp;</h3></div>
         </div>
       <img src={skatee2} alt="" id='imagee2' />
