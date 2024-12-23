@@ -15,7 +15,7 @@ const Work = () => {
       </div>
 
       <h2>PawQuest - Connecting Pet Lovers and Pets</h2>
-       Built a MERN stack web app for pet owners to create profiles for their pets <br /> details, and contact info. Enhanced <br />user engagement with a seamless and<br />  interactive interface.
+      <p>  Built a MERN stack web app for pet owners to create<br />  profiles for their pets details, and contact info. <br />Enhanced user engagement with a seamless and<br />  interactive interface.</p>
       <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
     
      </div>
