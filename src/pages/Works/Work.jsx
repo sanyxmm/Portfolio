@@ -14,10 +14,10 @@ const Work = () => {
     </div>
       </div>
 
-      <h2>FidoFinder Web Template</h2>
-      <p>Designed a visually appealing Web template with <br /> React ,JavaScript,CSS, and HTML , applying <br />modern ui/ux principles for an enhanced <br /> user experience</p>
+      <h2>PawQuest - Connecting Pet Lovers and Pets</h2>
+       Built a MERN stack web app for pet owners to create profiles for their pets <br /> details, and contact info. Enhanced <br />user engagement with a seamless and<br />  interactive interface.
       <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
-      
+    
      </div>
 
     </div>
