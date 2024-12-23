@@ -55,7 +55,6 @@ const Footer = () => {
       fill="#fff"
       class="btn-svg"
       width="22px"
-      height="22px"
       viewBox="0 0 24 24"
     >
       <title>LinkedIn</title>
