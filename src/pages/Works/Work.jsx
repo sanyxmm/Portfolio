@@ -28,7 +28,7 @@ const Work = () => {
       </div>
 
       <h2>AfterHours - Ecommerce Website</h2>
-    <p>AfterHours is a user-friendly e-commerce platform <br /> Built using Next.js and Sanity designed to offer a seamless<br />  shopping experience for perfume enthusiast...</p>
+    <p>AfterHours is a user-friendly e-commerce platform <br /> Built using Next.js and Sanity designed to <br />  offer a seamless shopping experience <br />  for perfume enthusiast...</p>
       <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
     
      </div>
@@ -40,8 +40,8 @@ const Work = () => {
     </div>
       </div>
 
-      <h2>Amorr – a Website for a Dating App</h2>
-      <p>Built a sleek pre-launch website for Amorr a dating app, <br /> using Next.js and Gsap . Captured early user interest <br />  with a clean design, smooth navigation...</p>
+      <h2>Amorr – Connecting People</h2>
+      <p>Built a sleek pre-launch website for Amorr dating, <br /> using Next.js and Gsap . Captured early user interest <br />  with a clean design, smooth navigation...</p>
       <a href="https://github.com/sanyxmm/prelaunch-2" class="fancy-button">Github Link </a>
     
      </div>
