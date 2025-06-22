@@ -16,7 +16,7 @@ const Work = () => {
 
       <h2>PawQuest - Connecting Pets</h2>
       <p>  Built a MERN stack web app for pet owners to create<br />  profiles for their pets details, and contact info. <br />Enhanced user engagement with a seamless and<br />  interactive interface.</p>
-      <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
+      <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Production Link</a>
     
      </div>
 
@@ -29,7 +29,7 @@ const Work = () => {
 
       <h2>AfterHours - Ecommerce Website</h2>
     <p>AfterHours is a user-friendly e-commerce platform <br /> Built using Next.js and Sanity designed to <br />  offer a seamless shopping experience <br />  for perfume enthusiast...</p>
-      <a href="https://github.com/sanyxmm/fidofinder" class="fancy-button">Github Link </a>
+      <a href="http://afterhours-snowy.vercel.app/" class="fancy-button">Production link</a>
     
      </div>
 
@@ -42,7 +42,7 @@ const Work = () => {
 
       <h2>Amorr – Connecting People</h2>
       <p>Built a sleek pre-launch website for Amorr dating, <br /> using Next.js and Gsap . Captured early user interest <br />  with a clean design, smooth navigation...</p>
-      <a href="https://github.com/sanyxmm/prelaunch-2" class="fancy-button">Github Link </a>
+      <a href="https://github.com/sanyxmm/prelaunch-2" class="fancy-button">Production Link</a>
     
      </div>
 
