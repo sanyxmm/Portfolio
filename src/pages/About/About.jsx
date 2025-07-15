@@ -11,9 +11,8 @@ const About = () => {
         <br />
         <li id='a2'>Hello! i'm Sanyam Choudhary</li>
         <br />
-       <li>I am a dedicated and passionate Computer Science student with a strong foundation Web development and data structures. With a focus on building efficient and scalable web applications.</li>
-       {/* <li>I am a dedicated and passionate web development student with a strong foundation in data structures. With a focus on building efficient and scalable web applications.</li> */}
-       <li id='line'>I am excited about the opportunity to work with talented teams and continue growing both personally and professionally in the tech industry. tech industry.</li>
+       <li>I am a dedicated and passionate Computer Science student with a strong foundation in Web development and data structures. With a focus on building efficient and scalable web applications.</li>
+       <li id='line'>I am excited about the opportunity to work with talented teams and continue growing both personally and professionally in the tech industry.</li>
        <li>I'm always open to feedback and new opportunities. Let's connect!</li>
        <div style={{marginTop:"-17%" }}>
         <a   href={resume}
